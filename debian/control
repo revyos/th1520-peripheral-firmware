@@ -1,0 +1,17 @@
+Source: th1520-peripheral-firmware
+Section: misc
+Priority: optional
+Maintainer: Nekorouter <nekorouter@outlook.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Rules-Requires-Root: no
+
+Package: rtl8723ds-firmware
+Architecture: all
+Depends: ${misc:Depends}
+Description: RTL8723DS Wifi/BT module firmware for RevyOS
+
+Package: aic8800-firmware
+Architecture: all
+Depends: ${misc:Depends}
+Description: AIC8800 Wifi/BT module firmware for RevyOS
